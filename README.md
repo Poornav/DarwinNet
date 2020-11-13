@@ -1,4 +1,4 @@
-#DarwinNet - Can Neural nets learn without backprop?
+# DarwinNet - Can Neural nets learn without backprop?
 
 DarwinNet is just a fancy name for evolutionary neural net with a small difference. Most evolutionary neural nets use evolutionary techniques along with backprop to come up with the best architecture for neural net. The learning (weight updates) still happens with backprop.
 There are few projects that use evolutionary neural net to learn the weights of the network without any backprop. 
@@ -6,7 +6,7 @@ https://github.com/ivanseidel/IAMDinosaur
 and
 https://github.com/mitchvoll/NeuroEvolutionDriver
 
-##Idea : 
+## Idea : 
 1. Create a bunch of neural nets (genomes) with random weights. This is the nitial population.
 2. Evaluate all the models with a fitness function (Eg. accuracy or loss for a device classification task) on a dataset.
 3. Natural selection - Select the top N best neural nets based on fitness function.
